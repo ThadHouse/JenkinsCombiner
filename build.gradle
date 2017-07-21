@@ -1,0 +1,4 @@
+if (project.hasProperty('wpiutil')) {
+    apply from: 'wpiutil/combine.gradle'
+}
+
